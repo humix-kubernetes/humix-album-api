@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: humix-album-api
+spec:
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app: humix-album-api
+  template:
+    metadata:
+      labels:
+        app: humix-album-api
+    spec:
+      containers:
+      - name: humix-album-api
+        image: humix-album-api
+        ports:
+        - containerPort: 8080
