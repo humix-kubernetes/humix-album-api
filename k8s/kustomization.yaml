@@ -9,4 +9,4 @@ namespace: album
 images:
 - name: humix-album-api
   newName: blgianinis/humix-album-api
-  newTag: 18fad7ae587a4b58baad430a641adba5fa4f1942
+  newTag: c27a36d965a83f717b2cbe61dde46fd46d817bcc
