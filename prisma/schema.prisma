@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://neondb_owner:npg_Bwz1aQ6KHntS@ep-hidden-cloud-a8efcee1-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
+  url      = "postgresql://neondb_owner:npg_jTOzam35HwXA@ep-shy-pond-a88cp7xz-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
 }
 
 model Album {
