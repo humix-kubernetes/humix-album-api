@@ -17,3 +17,6 @@ spec:
         image: humix-album-api
         ports:
         - containerPort: 8080
+        env:
+        - name: DATABASE_URL
+          value: "postgresql://neondb_owner:npg_jTOzam35HwXA@ep-shy-pond-a88cp7xz-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
